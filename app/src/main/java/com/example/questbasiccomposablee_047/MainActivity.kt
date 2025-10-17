@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             QuestBasicComposablee_047Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    TataLetakBoxColumnRow(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
